@@ -1,4 +1,4 @@
-import os
+6import os
 import logging
 from logging.handlers import RotatingFileHandler
 
@@ -16,12 +16,12 @@ HELP_MSG = """■ 𝗛𝗲𝗹𝗹𝗼, 𝗔𝗱𝗺𝗶𝗻𝘀!\n\n<blockquote
 """  # shown only to admins
 
 # Bot token @Botfather
-TG_BOT_TOKEN = '7295406763:AAFlQKqxAr7g67NO5LuVbpjXbks48gQR2L4'
+TG_BOT_TOKEN = ''
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27727369"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1a6616b34f66ed256a8330ad9cb674ed")
+API_HASH = os.environ.get("API_HASH", ")
 
 # Your db channel Id
 DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002201374172"))
@@ -41,7 +41,7 @@ if OWNER_ID not in SUDO:
 PORT = os.environ.get("PORT", "8108")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://srirangasai57:filestore1@cluster0.pnucx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "")
 
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
